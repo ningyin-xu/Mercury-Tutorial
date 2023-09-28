@@ -29,7 +29,7 @@
 
 echo "Job ID: $SLURM_JOB_ID"
 echo "Job User: $SLURM_JOB_USER"
-echo "Num Cores: $SLURM_JOB_CPUS_PER_NODE"
+echo "Num Cores: $SLURM_CPUS_ON_NODE"
 
 #---------------------------------------------------------------------------------
 # Load necessary modules for the job
